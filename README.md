@@ -1,2 +1,1 @@
-# NodeMCU-SmartPowerStrip
-Control a power strip with nodeMCU by API
+This code was written using the "PlatformIO" plug-in on Visual Studio Code. The code was written to run on a "NodeMCU ESP8266" for the creation of a server that, through the API call and use of physical buttons, it allows to control a 4-channel relay. The APIs are used to control the relay through a network and the physical buttons allow you to control the relay even in the event of a failed connection or similar problems, so you can always have control. It is possible to expand the number of channels using a larger relay and changing the code a bit. In the future the expansion part will be improved by automating it as much as possible.
